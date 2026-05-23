@@ -44,8 +44,12 @@ const userSchema = mongoose.Schema({
     type: Number,
   },
   jti: {
-    type: String,
-  },
+  type: String,
+},
+bio: {
+  type: String,
+  default: "Hey there! I am using FlickChat."
+}
 });
 
 const user = mongoose.model("user", userSchema);

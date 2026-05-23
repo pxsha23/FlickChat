@@ -94,25 +94,6 @@ You can run this application either using Docker or traditional npm setup.
 
 8. Open your web browser and visit http://localhost:3000 to access the application.
 
-<p align='center'>
-<img src='./images/login-pannel.png' >
-<br>
-<br>
-<img src='./images/authentication.png' >
-<br>
-<br>
-<img src='./images/chat-and-user-frame.png' >
-<br>
-<br>
-<img src='./images/chat.png' >
-<br>
-<br>
-<img src='./images/profile-button.png' >
-<br>
-<br>
-<img src='./images/user-profile.png' >
-</p>
-
 <!-- CONTACT -->
 
 ## Contact

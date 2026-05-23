@@ -34,6 +34,7 @@ import Connection from "./database/db.js";
 import Route from "./routes/route.js";
 
 dotenv.config(); // 👈 Load env vars
+console.log("✅ Loaded MONGO_URI:", process.env.MONGO_URI);
 
 const app = express();
 

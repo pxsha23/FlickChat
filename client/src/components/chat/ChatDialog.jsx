@@ -19,7 +19,7 @@ const RightComponent = styled(Box)`
   width: 73%;
   min-width: 300px;
   height: 100%;
-  border-left: 1px solid rgba(0, 0, 0, 0.14);
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
 `;
 const dialogstyle = {
   height: "95%",

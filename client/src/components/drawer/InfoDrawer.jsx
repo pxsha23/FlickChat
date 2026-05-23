@@ -4,10 +4,12 @@ import { ArrowBack } from "@mui/icons-material";
 // components 
 import Profile from "./Profile";
 
+
+//THE PROFILE SECTION COLOR
 const Header = styled(Box)`
-  background: #008069;
+  background:rgb(0, 0, 0);
   height: 107px;
-  color: #ffffff;
+  color:rgb(255, 255, 255);
   display: flex;
   & > svg,
   & > p {
@@ -17,8 +19,11 @@ const Header = styled(Box)`
   }
 `;
 
+
+
+//THE THREE COLOR STRIPS IN PROFILE
 const Component = styled(Box)`
-  background: #ededed;
+  background:rgb(0, 0, 0);
   height: 85%;
 `;
 

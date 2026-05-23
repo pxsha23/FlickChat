@@ -3,10 +3,12 @@ import { useState } from "react";
 import { MoreVert } from "@mui/icons-material";
 import { Menu, MenuItem, styled } from "@mui/material";
 
+
+//THE PROFILE DROPDOWN COLOR
 const MenuOption = styled(MenuItem)`
   font-size: 14px;
   padding: 15px 60px 5px 24px;
-  color: #4a4a4a;
+  color:rgb(0, 0, 0);
 `;
 
 const HeaderMenu = ({ setOpenDrawer }) => {

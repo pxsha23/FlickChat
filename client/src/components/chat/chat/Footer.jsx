@@ -5,6 +5,8 @@ import { EmojiEmotionsOutlined, AttachFile, Mic } from "@mui/icons-material";
 
 import { uploadFile } from "../../../service/api";
 
+
+//THE EMOJIS AND STAPPLE PINN
 const Container = styled(Box)`
   height: 55px;
   background: #ededed;
@@ -14,12 +16,14 @@ const Container = styled(Box)`
   padding: 0 15px;
   & > * {
     margin: 5px;
-    color: #919191;
+    color:rgb(100, 100, 101);
   }
 `;
 
+
+//THE TEXT BOXES
 const Search = styled(Box)`
-  background-color: #ffffff;
+  background-color:rgb(150, 160, 166);
   border-radius: 18px;
   width: calc(94% - 100px);
 `;
@@ -38,19 +42,28 @@ const ClipIcon = styled(AttachFile)`
 
 const Footer = ({sendText, setValue, value, file, setFile, setImage}) => {
 
-  useEffect(()=>{
-    const getImage = async ()=>{
-      if(file){
-        const data = new FormData();
-        data.append("name", file.name);
-        data.append("file", file);
+  useEffect(() => {
+  const getImage = async () => {
+    if (file) {
+      const data = new FormData();
+      data.append("name", file.name);
+      data.append("file", file);
 
-        let response = await uploadFile(data);
-        setImage(response.data);
+      try {
+        const response = await uploadFile(data);
+        if (response && response.data) {
+          setImage(response.data);
+        } else {
+          console.error("Invalid response from uploadFile:", response);
+        }
+      } catch (error) {
+        console.error("File upload failed:", error);
       }
     }
-    getImage();
-  }, [file])
+  };
+  getImage();
+}, [file]);
+
 
   const onFileChange = (e) => {
     setFile(e.target.files[0]);

@@ -4,12 +4,14 @@ import { InputBase, Box, styled } from "@mui/material";
 const Component = styled(Box)`
   background: #fff;
   height: 45px;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solidrgb(70, 133, 164);
   display: flex;
   align-items: center;
 `;
+
+//THE SEARCH BAR IN CHAT MENU
 const Wrapper = styled(Box)`
-  background-color: #f0f2f5;
+  background-color:rgb(176, 179, 182);
   position: relative;
   margin: 0 13px;
   width: 100%;
@@ -19,7 +21,7 @@ const Icon = styled(Box)`
   position: absolute;
   height: 100%;
   padding: 6px 10px;
-  color: #919191;
+  color:rgb(106, 106, 106);
 `;
 const InputField = styled(InputBase)`
   width: 100%;

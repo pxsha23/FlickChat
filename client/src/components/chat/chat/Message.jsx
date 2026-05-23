@@ -9,7 +9,7 @@ import { AccountContext } from '../../../context/AccountProvider';
 import { iconPDF } from '../../../constants/data';
 
 const Own = styled(Box)`
-    background: #dcf8c6;
+    background:rgb(137, 149, 151);
     max-width: 60%;
     margin-left: auto;
     padding: 5px;
@@ -21,7 +21,7 @@ const Own = styled(Box)`
 `;
  
 const Wrapper = styled(Box)`
-    background: #FFFFFF;
+    background:rgb(255, 255, 255);
     max-width: 60%;
     padding: 5px;
     width: fit-content;
@@ -38,7 +38,7 @@ const Text = styled(Typography)`
 
 const Time = styled(Typography)`
     font-size: 10px;
-    color: #919191;
+    color:rgb(63, 63, 63);
     margin-top: 6px;
     word-break: keep-all;
     margin-top: auto;

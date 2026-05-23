@@ -17,25 +17,27 @@ const Image = styled("img")({
 });
 
 const BoxWrapper = styled(Box)`
-  background: #ffffff;
+  background:rgb(49, 49, 49);
   padding: 12px 30px 2px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   & :first-child {
     font-size: 13px;
-    color: #009688;
+    color:rgb(255, 255, 255);
     font-weight: 200;
   }
   & :last-child {
     margin: 14px 0;
-    color: #4a4a4a;
+    color:rgb(255, 255, 255);
   }
 `;
 
+
+//THE NOT USERNAME NOTE
 const DescriptionContainer = styled(Box)`
     padding: 15px 20px 28px 30px;
     & > p{
         font-size: 13px;
-        color: #869680;
+        color:rgb(227, 227, 227);
     }
 
 `

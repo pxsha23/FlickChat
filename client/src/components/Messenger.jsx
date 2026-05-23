@@ -8,18 +8,24 @@ import { AccountContext } from "../context/AccountProvider";
 import LoginDialog from "./account/LoginDialog";
 import ChatDialog from "./chat/ChatDialog";
 
+
+
+//THE BACKGROUND TWO COLORS
 const Component = styled(Box)`
   height: 100vh;
-  background-color: #dcdcdc;
+  background-color:rgb(255, 255, 255);
 `;
 const Header = styled(AppBar)`
   height: 125px;
-  background-color: #00bfa5;
+  background-color:rgb(255, 255, 255);
   box-shadow: none;
 `;
+
+
+// THE LOGIN PAGE COLOUR
 const LoginHeader = styled(AppBar)`
   height: 222px;
-  background-color: #00a884;
+  background-color:rgb(255, 255, 255);
   box-shadow: none;
 `;
 

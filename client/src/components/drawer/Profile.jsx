@@ -61,7 +61,7 @@ const Profile = () => {
 
       <BoxWrapper>
         <Typography>About</Typography>
-        <Typography>Eat! Sleep! Repeat!</Typography>
+        <Typography>{account.bio || "Hey there! I am using FlickChat."}</Typography>
       </BoxWrapper>
     </>
   );

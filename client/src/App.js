@@ -5,8 +5,7 @@ import Messenger from "./components/Messenger";
 import AccountProvider from "./context/AccountProvider";
 
 function App() {
-  const clientId =
-    "383202512806-12ktdtttnbo86o7365mg0b97rco8gt4n.apps.googleusercontent.com";
+  const clientId = "750889819917-qcgbhc67f84t2mdpoc12tvf40f7d1bdb.apps.googleusercontent.com";
   return (
     <GoogleOAuthProvider clientId={clientId}>
       <AccountProvider>
